@@ -192,7 +192,6 @@ body.produto .produto-descricao {
     float: left
 }
 body.produto .produto-info .productName {
-    margin: 20px 0;
     line-height: 1.6rem;
     font-size: 1.4rem;
     margin: 15px 0 10px;
@@ -417,7 +416,6 @@ body.produto .produto-descricao>div h3 span {
 }
 body.produto .produto-descricao .container-descricao {
     color: #4b4b4b;
-    font-size: 15px;
     padding: 0;
     font-size: 14px;
     font-weight: 300
@@ -679,15 +677,7 @@ body .prateleira-padrao .list_product {
     padding: 0 20px;
     display: inline-block
 }
-body .prateleira-padrao .prateleira__nome {
-    border-bottom: 1px solid #eaeaea;
-    font-size: 15px;
-    font-weight: bold;
-    color: #000;
-    height: 55px;
-    display: block;
-    margin-top: 20px
-}
+
 body .prateleira-padrao .prateleira__preco-por {
     float: left;
     position: relative;
@@ -737,7 +727,7 @@ body .prateleira-padrao .prateleira__preco-parcelas {
     font-size: 11px
 }
 body .prateleira-padrao .prod-id, .prod-id {
-	display:block !important;
+	display:none !important;
 }
 body .prateleira-padrao span.preco-por {
     bottom: 0;
@@ -895,6 +885,7 @@ body .prateleira-padrao .percent-discount {
 	background: #000;
 	color: #fff;
 	line-height: 1.5;
+	width: 60px;
     
 }
 body.busca-encontrada .prateleira-padrao .prateleira-padrao {
@@ -953,205 +944,17 @@ body.busca-encontrada .search__results .prateleira-padrao li:hover .quickview-si
     margin: 30px auto
 }
 
-
-@media screen and (max-width: 768px) {
-body.produto .produto-comprar .buy-button {
-    width: 100%;
-    background-position: -21px 0px
-}
-body .disponivel {
-    font-size: 10px;
-    margin-top: 3px
-}
-body.produto #calculoFrete .prefixo::after {
-    font-size: .8rem
-}
-body.produto #calculoFrete .content .prefixo::before {
-    left: initial;
-    right: 0;
-    top: -3px
-}
-body.produto .produto-preco .economia-de {
-    color: #449d06;
-    display: block !important;
-    font-size: 12px;
-    position: absolute;
-    right: 16px;
-    top: 0;
-    left: inherit;
-    white-space: pre-wrap;
-    width: 100px;
-    text-align: center
-}
-body.produto .x-parcel>strong {
-    left: 0;
-    top: 0
-}
-body.produto .produto-comprar .buy-button {
-    margin: 24px auto 20px
-}
-body .disponivel:before {
-    display: none
-}
+.resultado-busca-filtro{
+	margin-top: 50px;
 }
 
-@media screen and (max-width: 425px) {
-body.produto .produto-comprar .buy-button {
-    width: 305px !important;
-    background-position: 0px 0px
-}
-.busca-encontrada .search__results .prateleira-padrao li {
-    width: 100%
-}
+
 .prateleira-padrao .prateleira__esgotado {
-    margin-bottom: 20px
-}
-body.home .banner-shelfs .banner__1-produto, body.home .banner-shelfs .prateleira__1-produto {
-    height: auto
-}
-body.home .banner-shelfs .prateleira__1-produto .prateleira-padrao .slick-prev {
-    left: -18px
-}
-body.home .banner-shelfs .prateleira__1-produto .prateleira-padrao .slick-next {
-    right: -18px
-}
-body .header__sandwich {
-    z-index: 999
-}
-body.produto .brandName {
-    margin-top: 0
-}
-body.produto .brandName {
-    text-align: center
-}
-body .m-similares li {
-    width: calc(100% / 3)
-}
-body .garantias-of7 li span {
-    font-size: 13px
-}
-body.produto .produto-descricao>div h3 span {
-    font-size: 1.2rem
-}
-body .container-especificacao .texto-4 {
-    top: 290px
-}
-body.produto .garantia .selo {
-    background: transparent;
-    padding: 0
-}
-body.produto .produto-descricao .container-garantia ul li {
-    font-size: 13px
-}
-body.produto .produto-info {
-    margin: 0;
-    padding: 0;
-    width: 100% !important;
-    margin-top: 50px
-}
-body .quem-comprou h3 {
-    padding: 0
-}
-body .quem-comprou h3 span {
-    font-size: 1.4rem;
-    line-height: 25px
-}
-body .footer .footer__news .news__call {
-    padding: 0 0 10px 0
-}
-body .footer .footer__news .news__submit {
-    width: 127px
-}
-body .footer .footer__news {
-    min-height: 220px
-}
-body .footer__middle {
-    padding: 20px 0px
-}
-body .footer .footer__title {
-    border-color: #999;
-    line-height: 50px;
-    font-size: 1rem;
-    margin-bottom: -1px
-}
-body .footer__contact {
-    padding-bottom: 20px
-}
-body .footer__bottom-info {
-    padding: 0
-}
-body .footer__bottom {
-    padding: 0px 5% 63px;
-    border-top: 1px solid #777;
-    line-height: 16px
-}
-body.produto .produto-imagem .zoomPad {
-    border: 0
-}
+    margin-bottom: 20px;
+		margin-top: 30px !important;
 }
 
-@media screen and (max-width: 1024px) {
-body.produto .produto-info {
-    margin-right: 0;
-    width: 40%
-}
-body .prateleira-padrao .prateleira__nome {
-    height: 78px
-}
-body .prateleira-padrao .prateleira__preco-por {
-    width: 100%
-}
-body .prateleira-padrao .prateleira__preco-parcelado {
-    width: 100%;
-    float: left;
-    margin-top: 0
-}
-body .prateleira-padrao .prateleira__preco {
-    margin: 3px 5px 0 20px
-}
-body .prateleira-padrao .prateleira__preco-parcelas {
-    margin-top: 0
-}
-body .a-vista {
-    margin-top: 2px !important
-}
-body .prateleira-padrao .prateleira__preco-de {
-    position: relative
-}
-body .prateleira-padrao .economia {
-    color: #449d06;
-    display: inline;
-    font-size: 11px;
-    width: auto;
-    width: 76px;
-    position: absolute;
-    top: 2px;
-    right: 8px;
-    text-align: center;
-    line-height: 15px
-}
-body.home .banner-shelfs .banner__1-produto, body.home .banner-shelfs .prateleira__1-produto {
-    height: 47vw
-}
-}
 
-@media screen and (max-width: 1024px) {
-body.home .banner-shelfs .banner__1-produto, body.home .banner-shelfs .prateleira__1-produto {
-    height: auto
-}
-}
-
-@media screen and (max-width: 320px) {
-.home .prateleira-padrao .prateleira__preco-de {
-    width: 100%
-}
-body .a-vista {
-    white-space: pre-line
-}
-}
-html {
-    overflow-y: auto !important
-}
 body .header__contact-info {
     color: #ddd;
     line-height: 18px;
@@ -1343,7 +1146,6 @@ body.produto .produto-descricao {
     float: left
 }
 body.produto .produto-info .productName {
-    margin: 20px 0;
     line-height: 1.6rem;
     font-size: 1.4rem;
     margin: 15px 0 10px;
@@ -1568,7 +1370,6 @@ body.produto .produto-descricao>div h3 span {
 }
 body.produto .produto-descricao .container-descricao {
     color: #4b4b4b;
-    font-size: 15px;
     padding: 0;
     font-size: 14px;
     font-weight: 300
@@ -1835,7 +1636,7 @@ body .prateleira-padrao .prateleira__nome {
     font-size: 15px;
     font-weight: bold;
     color: #000;
-    height: 55px;
+    height: 75px;
     display: block;
     margin-top: 20px
 }
@@ -2083,6 +1884,9 @@ body.busca-encontrada .search__results .prateleira-padrao li:hover .quickview-si
     display: none !important
 }
 
+/*------------------------------------------------------------------------------*/
+
+
 
 @media screen and (max-width: 768px) {
 body.produto .produto-comprar .buy-button {
@@ -2134,7 +1938,208 @@ body.produto .produto-comprar .buy-button {
     width: 100%
 }
 .prateleira-padrao .prateleira__esgotado {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+	
+}
+
+body.home .banner-shelfs .banner__1-produto, body.home .banner-shelfs .prateleira__1-produto {
+    height: auto
+}
+body.home .banner-shelfs .prateleira__1-produto .prateleira-padrao .slick-prev {
+    left: -18px
+}
+body.home .banner-shelfs .prateleira__1-produto .prateleira-padrao .slick-next {
+    right: -18px
+}
+body .header__sandwich {
+    z-index: 999
+}
+body.produto .brandName {
+    margin-top: 0
+}
+body.produto .brandName {
+    text-align: center
+}
+body .m-similares li {
+    width: calc(100% / 3)
+}
+body .garantias-of7 li span {
+    font-size: 13px
+}
+body.produto .produto-descricao>div h3 span {
+    font-size: 1.2rem
+}
+body .container-especificacao .texto-4 {
+    top: 290px
+}
+body.produto .garantia .selo {
+    background: transparent;
+    padding: 0
+}
+body.produto .produto-descricao .container-garantia ul li {
+    font-size: 13px
+}
+body.produto .produto-info {
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    margin-top: 50px
+}
+body .quem-comprou h3 {
+    padding: 0
+}
+body .quem-comprou h3 span {
+    font-size: 1.4rem;
+    line-height: 25px
+}
+body .footer .footer__news .news__call {
+    padding: 0 0 10px 0
+}
+body .footer .footer__news .news__submit {
+    width: 127px
+}
+body .footer .footer__news {
+    min-height: 220px
+}
+body .footer__middle {
+    padding: 20px 0px
+}
+body .footer .footer__title {
+    border-color: #999;
+    line-height: 50px;
+    font-size: 1rem;
+    margin-bottom: -1px
+}
+body .footer__contact {
+    padding-bottom: 20px
+}
+body .footer__bottom-info {
+    padding: 0
+}
+body .footer__bottom {
+    padding: 0px 5% 63px;
+    border-top: 1px solid #777;
+    line-height: 16px
+}
+body.produto .produto-imagem .zoomPad {
+    border: 0
+}
+}
+
+@media screen and (max-width: 1024px) {
+body.produto .produto-info {
+    margin-right: 0;
+    width: 40%
+}
+body .prateleira-padrao .prateleira__nome {
+    height: 78px
+}
+body .prateleira-padrao .prateleira__preco-por {
+    width: 100%
+}
+body .prateleira-padrao .prateleira__preco-parcelado {
+    width: 100%;
+    float: left;
+    margin-top: 0
+}
+body .prateleira-padrao .prateleira__preco {
+    margin: 3px 5px 0 20px
+}
+body .prateleira-padrao .prateleira__preco-parcelas {
+    margin-top: 0
+}
+body .a-vista {
+    margin-top: 2px !important
+}
+body .prateleira-padrao .prateleira__preco-de {
+    position: relative
+}
+body .prateleira-padrao .economia {
+    color: #449d06;
+    display: inline;
+    font-size: 11px;
+    width: auto;
+    width: 76px;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    text-align: center;
+    line-height: 15px
+}
+body.home .banner-shelfs .banner__1-produto, body.home .banner-shelfs .prateleira__1-produto {
+    height: 47vw
+}
+}
+
+@media screen and (max-width: 1024px) {
+body.home .banner-shelfs .banner__1-produto, body.home .banner-shelfs .prateleira__1-produto {
+    height: auto
+}
+}
+
+@media screen and (max-width: 320px) {
+.home .prateleira-padrao .prateleira__preco-de {
+    width: 100%
+}
+body .a-vista {
+    white-space: pre-line
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+body.produto .produto-comprar .buy-button {
+    width: 100%;
+    background-position: -21px 0px
+}
+body .disponivel {
+    font-size: 10px;
+    margin-top: 3px
+}
+body.produto #calculoFrete .prefixo::after {
+    font-size: .8rem
+}
+body.produto #calculoFrete .content .prefixo::before {
+    left: initial;
+    right: 0;
+    top: -3px
+}
+body.produto .produto-preco .economia-de {
+    color: #449d06;
+    display: block !important;
+    font-size: 12px;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    left: inherit;
+    white-space: pre-wrap;
+    width: 100px;
+    text-align: center
+}
+body.produto .x-parcel>strong {
+    left: 0;
+    top: 0
+}
+body.produto .produto-comprar .buy-button {
+    margin: 24px auto 20px
+}
+body .disponivel:before {
+    display: none
+}
+}
+
+@media screen and (max-width: 425px) {
+body.produto .produto-comprar .buy-button {
+    width: 305px !important;
+    background-position: 0px 0px
+}
+.busca-encontrada .search__results .prateleira-padrao li {
+    width: 100%
+}
+.prateleira-padrao .prateleira__esgotado {
+    margin-bottom: 20px;
+	
 }
 body.home .banner-shelfs .banner__1-produto, body.home .banner-shelfs .prateleira__1-produto {
     height: auto
