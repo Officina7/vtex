@@ -1357,13 +1357,13 @@ height:30px
     background: #a01202
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-vermelho:after {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-vermelho:before {
     background: red
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar .dourado-marrom:after {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar .dourado-marrom:before {
     background: brown
@@ -1387,13 +1387,13 @@ height:30px
     background: pink
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-rosa:after {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-rosa:before {
     background: pink
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-marrom:after {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-marrom:before {
     background: brown
@@ -1432,7 +1432,7 @@ height:30px
     background: #00f
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.azul-dourado:before {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.lilás-translucido:after {
     background: #c969f9
@@ -1496,7 +1496,7 @@ height:30px
     display: block!important
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado {
-    background: gold!important;
+    background: #e7dd6d!important;
     display: none
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado:nth-child(1) {
@@ -1581,13 +1581,13 @@ height:30px
     background: maroon
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-preto:after {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-preto:before {
     background: #000
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.bronze-cinza:after {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.bronze-cinza:before {
     background: #c9c9c9
@@ -1623,7 +1623,7 @@ height:30px
     background: orange
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.cinza-dourado:after {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.cinza-dourado:before {
     background: grey
@@ -1647,7 +1647,7 @@ height:30px
     background: #c969f9
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-marmorizado:after {
-    background: gold
+    background: #e7dd6d
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-marmorizado:before {
     background: #d0c0ae
@@ -1660,10 +1660,10 @@ height:30px
 }
 
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-translucido:after {
-    background: #2b1c1c
+    background: white
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-translucido:before {
-    background: gold
+    background: #e7dd6d
 }
 /*---------------------------FIM CORES ------------------------------*/
 
