@@ -1314,7 +1314,7 @@ height:30px
     border-radius: 100%;
     border: 2px solid #fff;
     padding: 12px!important;
-    background: #fff!important;
+    background: #f2f2f2!important;
     -webkit-transform: rotate(217deg);
     -ms-transform: rotate(217deg);
     transform: rotate(217deg);
@@ -1322,7 +1322,7 @@ height:30px
     float: unset
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar:hover {
-    border: 2px dashed #444
+    border: 2px solid #ededed
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar:before {
     content: ' ';
@@ -1344,6 +1344,9 @@ height:30px
     top: 3px;
     border-radius: 128px 128px 0 0
 }
+
+/*---------------------------CORES ------------------------------*/
+
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.bronze-preto:after {
     background: brown
 }
@@ -1598,6 +1601,72 @@ height:30px
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.marmorizado-marrom:before {
     background: brown
 }
+
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.amarelo-verde:after {
+    background: yellow
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.amarelo-verde:before {
+    background: green
+}
+
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.azul-branco:after {
+    background: white
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.azul-branco:before {
+    background: blue
+}
+
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.laranja-preto:after {
+    background: black
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.laranja-preto:before {
+    background: orange
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.cinza-dourado:after {
+    background: gold
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.cinza-dourado:before {
+    background: grey
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.branco-preto:after {
+    background: black
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.branco-preto:before {
+    background: white
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.madeira-preto:after {
+    background: black
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.madeira-preto:before {
+    background: #9b7539
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.lilás-prata:after {
+    background: #c9c9c9
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.lilás-prata:before {
+    background: #c969f9
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-marmorizado:after {
+    background: gold
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-marmorizado:before {
+    background: #d0c0ae
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.marmorizado-preto:after {
+    background: #d0c0ae
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.marmorizado-preto:before {
+    background: black
+}
+
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-translucido:after {
+    background: #2b1c1c
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-translucido:before {
+    background: gold
+}
+/*---------------------------FIM CORES ------------------------------*/
+
 body.profiteDev .prateleira-padrao ul li:hover .quickView {
     background-color: #000;
     border-color: #000;
@@ -3238,6 +3307,7 @@ body#productQuickView .produto-info {
     width: 84%;
     margin: 0 auto
 }
+
 .produto .flag-colecao .flag {
     background: red;
     text-align: center;
@@ -4316,6 +4386,7 @@ body.produto .produto-info {
 
 @media screen and (max-width:480px) {
 body.product-degress .degress-input {
+
     min-width: 33%;
     margin-right: .3333%
 }
