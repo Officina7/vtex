@@ -135,6 +135,21 @@ main {
 .header__right {
     float: right
 }
+.header__left {
+    float: left
+}
+.header__blog {
+    margin-left: 55px;
+}
+
+.header__blog a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px !important;
+}
+.header__blog a:hover{
+    opacity: 0.7;
+}
 .header__contact-info {
     float: left;
     line-height: 18px;
@@ -1362,16 +1377,17 @@ height:30px
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-vermelho:before {
     background: red
 }
-.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar .dourado-marrom:after {
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-marrom:after {
     background: #e7dd6d
 }
-.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar .dourado-marrom:before {
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-marrom:before {
     background: brown
 }
-.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar .rosa-rosê:after {
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.rosa-rosê:after {
     background: pink
 }
-.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar .rosa-rosê:before {
+
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.rosa-rosê:before {
     background: #db7093
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.azul-verde:after {
@@ -1664,6 +1680,42 @@ height:30px
 }
 .prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-translucido:before {
     background: #e7dd6d
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.chumbo-preto:after {
+    background: #000
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.chumbo-preto:beforec{
+    background: #c9c9c9
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.bege-dourado:after {
+    background: #f9f5c7
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-vinho:before {
+    background: #e7dd6d
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.dourado-vinho:after {
+    background: #813232
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.bege-dourado:before {
+    background: #e7dd6d
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.creme-prata:after {
+    background: #c9c9c9
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.creme-prata:before {
+    background: #f7f9bf
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.azul-marmorizado:after {
+    background: #e7dd6d
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.azul-marmorizado:before {
+    background: blue
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.nude-prata:after {
+    background: #c9c9c9
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar.nude-prata:before {
+    background: #ebd591
 }
 /*---------------------------FIM CORES ------------------------------*/
 
@@ -3818,6 +3870,7 @@ body#productQuickView .produto-info {
     background-image: url(/arquivos/icons-s677961e527.png)
 }
 .produto #TB_window #TB_closeWindowButton {
+
     text-decoration: none;
     color: #000;
     font-size: 13px;
@@ -4597,6 +4650,7 @@ body.product-degress .degress-quantify-selected {
     font-size: 1.6rem;
     padding-right: 15px;
     position: relative
+
 }
 .produto-kit .produto-descricao .especificacao {
     display: none
@@ -5365,6 +5419,7 @@ body.product-degress .degress-quantify-selected {
     font-weight: 700
 }
 .guia-de-estilo .section-conhecendo {
+
     width: 80%;
     margin: 0 auto
 }

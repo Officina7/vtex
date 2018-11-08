@@ -727,7 +727,7 @@ body .prateleira-padrao .prateleira__preco-parcelas {
     font-size: 11px
 }
 body .prateleira-padrao .prod-id, .prod-id {
-	display:none !important;
+	display:block !important;
 }
 body .prateleira-padrao span.preco-por {
     bottom: 0;
@@ -813,64 +813,7 @@ body .busca-encontrada .search__results .main {
     margin: 0 35px 80px;
     width: calc(100% / 5)
 }
-body .flag.novidades {
-    content: "Novo";
-    font-size: 10px;
-    border: 1px solid;
-    text-transform: uppercase;
-    padding: 3px 1px 1px 3px;
-    display: inline-block;
-    line-height: 1;
-    letter-spacing: 2px;
-    font-weight: 400
-}
-body.produto .produto-imagem {
-    position: relative
-}
-body .header__autocomplete {
-    border-bottom: 1px solid #eee;
-    height: auto;
-    z-index: 99999
-}
-body .flag {
-    background-color: #333;
-    color: #fff;
-    float: right;
-    font-size: 14px;
-    height: 40px !important;
-    margin: 0 10px;
-    padding: 6px 7px;
-    text-align: center;
-    width: 64px !important
-}
-body .flag:first-child {
-    margin-right: 0 !important
-}
-body .flag.best-sellers {
-    background: url("/arquivos/best-sellers.png") no-repeat scroll !important;
-    text-indent: -9999rem
-}
-body .flag.novo {
-    background: url("/arquivos/novo.png") no-repeat scroll 0 -1px;
-    text-indent: -9999rem
-}
-body .flag.frete-gratis {
-    background: url("/arquivos/frete-gratis.png") no-repeat;
-    text-indent: -9999rem
-}
-body .flag.esquenta-black-friday {
-    background: url("/arquivos/esquenta-black-friday.png") no-repeat;
-    text-indent: -9999rem
-}
-body .flags-product {
-    position: absolute;
-    right: 0;
-    z-index: 9999;
-    top: 10px
-}
-body .flag-colecao {
-    display: none
-}
+
 body .prateleira-padrao .percent-discount {
     font-size: 10px;
     border: 1px solid;
@@ -933,10 +876,38 @@ body .nav__item:nth-of-type(3) .nav__submenu .submenu__list, body .nav__item:nth
     width: 15%;
     margin: 0 0 0 70px
 }
-body.busca-encontrada .search__results .prateleira-padrao li.icon-thumb-similarList {
+/*body.busca-encontrada .search__results .prateleira-padrao li.icon-thumb-similarList {
     min-width: initial;
     width: 40px
+}*/
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList {
+    margin: 0 !important;
+	margin-top: 10px !important;
+    
 }
+
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar:before {
+    content: ' ';
+    height: 10px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    left: 3px;
+    top: 11px;
+    border-radius: 0 0 120px 120px
+}
+.prateleira-padrao .miniaturaProduto .icon-thumb-similarList .icon-thumb-similar:after {
+    content: ' ';
+    height: 9px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    border-radius: 128px 128px 0 0
+}
+
+
 body.busca-encontrada .search__results .prateleira-padrao li:hover .quickview-similares .prateleira__comprar {
     display: none !important
 }
@@ -1012,6 +983,10 @@ body .nav__item:hover {
 }
 body .submenu__categories {
     border: 0
+}
+body .nav__item:last-child .nav__link{
+    color: #e20027;
+    font-weight: 700;
 }
 body .nav__item:nth-of-type(3) .nav__submenu .submenu__list {
     line-height: 28px;
@@ -1636,7 +1611,7 @@ body .prateleira-padrao .prateleira__nome {
     font-size: 15px;
     font-weight: bold;
     color: #000;
-    height: 75px;
+    height: 74px; 
     display: block;
     margin-top: 20px
 }
@@ -1884,6 +1859,41 @@ body.busca-encontrada .search__results .prateleira-padrao li:hover .quickview-si
     display: none !important
 }
 
+body .btn-busca-filtro{
+        display: none !important;
+    }
+#returnToTop {
+        position: fixed;
+        right: 5px;
+        bottom: 100px;
+        border:1px solid #CECEC2;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        z-index: 999;
+        cursor: pointer;
+        padding: 0;
+        text-align: right;
+		background: #FFFFFF
+    }
+
+    #returnToTop:after {
+        width: 100%;
+        position: absolute;
+        font-family: 'FontAwesome';
+        content: '\f106';
+        color: #CECEC2;
+        font-size: 38px;
+        text-align: center;
+        line-height: 43px;
+        right: 0;
+        top: 0;
+		
+    }
+
+#returnToTop span{display: none}
 /*------------------------------------------------------------------------------*/
 
 
